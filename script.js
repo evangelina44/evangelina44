@@ -45,13 +45,13 @@ function areaCirculo(radio) {
 }
 
 // Pruebas
-console.log(areaCirculo(5)); // ~78.5398
-console.log(areaCirculo(10)); // ~314.1592
+
+console.log(areaCirculo(5));
+console.log(areaCirculo(10));
 
 function areaCirculo(radio) {
-  return Math.PI * radio * radio;
+  return Math.PI * Math.pow(radio, 2);
 }
 
-// Pruebas
-console.log(areaCirculo(5)); // ~78.5398
-console.log(areaCirculo(10)); // ~314.1592
+console.log(areaCirculo(5));
+console.log(areaCirculo(10));
