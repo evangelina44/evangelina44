@@ -13,9 +13,9 @@ const porcentaje = 10;
 console.log("Propina:", calcularPropina(total, porcentaje)); // 100
 console.log("Total a pagar:", totalConPropina(total, porcentaje)); // 1100
 
-console.log(calcularDoble(5)); // 10
-console.log(esMayorDeEdad(20)); // true
-console.log(esMayorDeEdad(15)); // false
+// console.log(calcularDoble(5)); // 10
+// console.log(esMayorDeEdad(20)); // true
+// console.log(esMayorDeEdad(15)); // false
 
 console.log(Math.round(7.5));
 console.log(Math.round(7.4));
