@@ -46,65 +46,67 @@ function areaCirculo(radio) {
 
 // Pruebas
 
-console.log(areaCirculo(5));
-console.log(areaCirculo(10));
-
-function areaCirculo(radio) {
-  return Math.PI * Math.pow(radio, 2);
+function validarcontracena (contrasena){
+  if (contrasena. length < 8 ) {
+    return false
+  } else if (contrasena ===""){
+    return false
+  }
+function parOimpar(numero){
+  if(numero%2 ===0){
+    return "par";
+  }else {
+  return "impar"
+ }
+}
+for (let i = 1; i ++); {
+  console.log (i + "->" + parOimpar (i));
 }
 
-console.log(areaCirculo(5));
-console.log(areaCirculo(10));
+function mayorDeTres(num1, num2, num3){
+  if (num1>= num2 && num1 >= num3){
+    return num1;
+  } else if (num2 >= num3 && num2 >= num1){
+   return num2;
+  } else {
+    return num3
+  }
+}
 
 function generarContrasena(longitud) {
-  const caracteres = [
-    "a",
-    "b",
-    "c",
-    "d",
-    "e",
-    "f",
-    "g",
-    "h",
-    "i",
-    "j",
-    "k",
-    "l",
-    "m",
-    "n",
-    "o",
-    "p",
-    "q",
-    "r",
-    "s",
-    "t",
-    "u",
-    "v",
-    "w",
-    "x",
-    "y",
-    "z",
-    "0",
-    "1",
-    "2",
-    "3",
-    "4",
-    "5",
-    "6",
-    "7",
-    "8",
-    "9",
-  ];
-
-  let contrasena = "";
-
-  for (let i = 0; i < longitud; i++) {
-    let indice = Math.floor(Math.random() * caracteres.length);
-    contrasena = contrasena + caracteres[indice];
+   let contrasena = "";
+   for (let i = 0; i < longitud; i++)
+    contrasena+= caracteres[Math.random(Math.random()* caracteres. length);]
   }
-
- {
-  return contraseña;
+ return contrasena;
 }
+console.log(generarContrasena(8));
+
+
+function parOImpar(numero) { 
+   if (numero % 2 === 0);  {   
+     return "par";  } else 
+      {    return "impar";  }
+    }for (let i = 1; i <= 10; i++) 
+      
+      {  
+        console.log(i + " es " + parOImpar(i));}
+
+
+
+
+        const cancion = {
+  titulo: "Bohemian Rhapsody",
+  artista: "Queen",
+  anio: 1975,
+  duracion: 354,
+  favorita: true
+};
+
+
+
+
+
+   
 
 
