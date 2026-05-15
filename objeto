@@ -1,0 +1,23 @@
+const cancion = {
+  titulo: "Bohemian Rhapsody",
+  artista: "Queen",
+  anio: 1975,
+  duracion: 354,
+  favorita: true,
+};
+console.log(cancion);
+
+const libro = {
+  titulo: "Cien años de soledad",
+  autor: "Gabriel Garcia Marquez",
+  paginas: 471,
+  leido: false,
+};
+
+console.log(libro.titulo);
+console.log(libro["paginas"]);
+console.log(libro.editorial);
+
+libro.leido = true;
+
+console.log(libro);

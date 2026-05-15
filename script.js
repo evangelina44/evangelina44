@@ -107,6 +107,10 @@ function parOImpar(numero) {
 
 
 
+
+
+
+
    
 
 
